@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "lua": "cd $dir && if [ -f main.lua ]; then love .; else lua \"$fileName\"; fi"
+    }
+}
